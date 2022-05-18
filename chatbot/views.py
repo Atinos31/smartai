@@ -11,3 +11,6 @@ def index(request):
 def specific(request):
     return HttpResponse('list1')
 
+def getResponse(request):
+    userMessage = request.GET.get('userMessage')
+    return HttpResponse(userMessage)
