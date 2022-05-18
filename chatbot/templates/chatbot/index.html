@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'chatbot/style.css' %}">
+</head>
+<body>
+    <h1>Chatty Therapist</h1>
+
+    <div id="chatbot">
+        <p class="botText"> <span>Hi there </span></p>
+    </div>
+    <div id="userInput">
+        <input type="text" id="textInput" name="userMessage" placeholder="Type your message...">
+        <input type="button" id="buttonInput" type="submit" value="Send">
+    </div>
+</body>
+</html>
