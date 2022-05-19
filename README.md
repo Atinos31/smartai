@@ -8,4 +8,7 @@ pip3 install pyyaml
 python3 -m spacy download en
 pip3 install spacy
 
+
+converstation created by other people
+import chatterBotCorpusTrainer
 Happy coding!
