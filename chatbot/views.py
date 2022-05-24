@@ -5,7 +5,7 @@ from chatterbot.trainers import ListTrainer, ChatterBotCorpusTrainer
 
 # Create your views here.
 
-bot = ChatBot('chatbot', read_only=False, logic_adapters=[{'import_path': 'chatterbot.logic.BestMatch','default_response': 'sorry , i dont know what that means','maximu_similarity_threshold':0.90
+bot = ChatBot('chatbot', read_only=False, logic_adapters=[{'import_path': 'chatterbot.logic.BestMatch','default_response': 'sorry , i dont know what that means','maximum_similarity_threshold':0.90
                    }])
 
 list_to_train = [
